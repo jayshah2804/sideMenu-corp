@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 10px;
+    background-color: white;
+}
+
+img {
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
+} 
+
+.orgDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.adminPhoto {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    object-fit: fill;
+}
+
+.notification {
+    font-size: 20px;
+}

@@ -1,0 +1,174 @@
+.container {
+    /* width: 100vw; */
+    height: 100vh;
+    margin: 20px 25px;
+}
+
+.adminName {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.adminText {
+    font-size: 14px;
+    color: gray;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.cards div {
+    width: 310px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    font-size: 14px;
+}
+
+.text span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cards div:nth-child(1) {
+    background-color: rgba(34, 137, 203, 255);
+}
+
+.cards div:nth-child(2) {
+    background-color: rgb(226, 44, 29);
+}
+
+.cards div:nth-child(3) {
+    background-color: rgba(42, 149, 69, 255);
+}
+
+.cards div:nth-child(4) {
+    background-color: rgba(245, 174, 48, 255);
+}
+
+.chart {
+    margin: 10px;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+.tripChart {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.driverListHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.driverDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.driverInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.driverPhoto {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}
+
+.viewMoreDriverList {
+    font-size: 14px;
+    color: rgb(72, 72, 243);
+    cursor: pointer;
+}
+
+.viewMoreDriverList:hover {
+    border-bottom: 1px solid blue;
+    color: rgb(24, 24, 156);
+}
+
+.driverList {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: 310px;
+    height: max-content;
+}
+
+.driverName {
+    font-size: 14px;
+}
+
+.carNumber {
+    margin-top: -4px;
+    font-size: 11px;
+    color: gray;
+}
+
+.activeDriver {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(42, 149, 69, 255);
+}
+
+.inActiveDriver {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(226, 44, 29);
+}
+
+.footer {
+    display: flex;
+    gap: 25px
+}
+
+.mapContainer {
+    position: relative;
+}
+
+.map {
+    position: relative;
+    height: 236px;
+    width: 980px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.mapText {
+    position: absolute;
+    top: 0px;
+    height: 40px;
+    background-color: white;
+    width: 980px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 10px 20px;
+    font-weight: bold;
+}
